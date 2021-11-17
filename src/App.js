@@ -5,6 +5,7 @@ import Layout from "./components/layout";
 import About from "./pages/about";
 import Housing from "./pages/housing101"
 import LocalInfo from "./pages/localinfo";
+import CardDemo from './pages/cardDemo';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
             <Housing path="/"/>
             <About path="/about"/>
             <LocalInfo path="/local"/>
+            <CardDemo path="/cardDemo"/>
         </Router>
       </Layout>
   );
